@@ -24,13 +24,14 @@ import DrawerNavigation from './src/navigations/DrawerNavigation';
 
 
 
-const App = () => {
- 
-
+const App: React.FC = () => {
   return (
     <NavigationContainer>
       <DrawerNavigation />
     </NavigationContainer>
+    // <View>
+    //   <Text>Hello Markoverse</Text>
+    // </View>
   );
 };
 
